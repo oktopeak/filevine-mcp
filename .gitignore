@@ -1,6 +1,52 @@
+# Dependencies
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
 build/
+dist/
+*.tsbuildinfo
+
+# Environment
 .env
-*.enc
+.env.local
+.env.*.local
+
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+.editorconfig
+
+# OS
+Thumbs.db
+.env.example~
+
+# Logs
 *.log
+logs/
+*.enc
+*.enc.bak
+
+# Encryption cache
+.oktopeak-filevine/
+~/.oktopeak-filevine/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Claude Code
 .claude/
