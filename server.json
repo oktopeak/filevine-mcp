@@ -1,47 +1,51 @@
 {
-  "id": "io.github.oktopeak/filevine-mcp",
-  "name": "Filevine MCP",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.oktopeak/filevine-mcp",
   "description": "Open-source MCP server connecting Claude to Filevine practice management. Built by Oktopeak.",
   "version": "1.0.0",
-  "npm": "@oktopeak/filevine-mcp",
-  "transport": "stdio",
-  "tools": [
-    "authenticate",
-    "auth-status",
-    "logout",
-    "list-cases",
-    "get-case",
-    "search-contacts",
-    "get-contact",
-    "list-case-contacts",
-    "list-notes",
-    "create-note",
-    "list-documents",
-    "list-tasks",
-    "create-task",
-    "get-collection",
-    "discover-schema"
-  ],
-  "env": {
-    "FILEVINE_CLIENT_ID": {
-      "description": "Filevine OAuth client ID (from Settings → Client Secrets)",
-      "required": true
-    },
-    "FILEVINE_CLIENT_SECRET": {
-      "description": "Filevine OAuth client secret (from Settings → Client Secrets)",
-      "required": true
-    },
-    "FILEVINE_PAT": {
-      "description": "Filevine Personal Access Token (from Settings → Access Tokens)",
-      "required": true
-    },
-    "FILEVINE_REGION": {
-      "description": "Filevine API region: 'us' or 'ca'",
-      "required": false
-    },
-    "ENCRYPTION_KEY": {
-      "description": "64-character hex string (32 bytes) for AES-256-GCM token encryption",
-      "required": true
+  "repository": {
+    "url": "https://github.com/oktopeak/filevine-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@oktopeak/filevine-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "FILEVINE_CLIENT_ID",
+          "description": "Filevine OAuth client ID (from Settings → Client Secrets)",
+          "isRequired": true,
+          "isSecret": true
+        },
+        {
+          "name": "FILEVINE_CLIENT_SECRET",
+          "description": "Filevine OAuth client secret (from Settings → Client Secrets)",
+          "isRequired": true,
+          "isSecret": true
+        },
+        {
+          "name": "FILEVINE_PAT",
+          "description": "Filevine Personal Access Token (from Settings → Access Tokens)",
+          "isRequired": true,
+          "isSecret": true
+        },
+        {
+          "name": "FILEVINE_REGION",
+          "description": "Filevine API region: 'us' or 'ca'",
+          "isRequired": false
+        },
+        {
+          "name": "ENCRYPTION_KEY",
+          "description": "64-character hex string (32 bytes) for AES-256-GCM token encryption",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
     }
-  }
+  ]
 }
