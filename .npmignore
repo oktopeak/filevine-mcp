@@ -1,0 +1,36 @@
+# Source files
+src/
+
+# Tests
+**/__tests__/
+*.test.ts
+*.test.js
+jest.config.js
+
+# Development
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# CI/CD
+.github/
+.claude/
+
+# Tools
+mcp-publisher*
+
+# Documentation for development
+TESTING.md
+
+# Environment
+.env*
+
+# Build artifacts
+*.tsbuildinfo
+coverage/
+
+# Root files
+tsconfig.json
