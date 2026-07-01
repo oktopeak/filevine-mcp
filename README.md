@@ -315,4 +315,6 @@ MIT — Oktopeak
 
 ## Related
 
-- **Clio MCP:** [github.com/oktopeak/clio-mcp](https://github.com/oktopeak/clio-mcp) — Similar connector for Clio practice management
+- **Clio MCP:** [github.com/oktopeak/clio-mcp](https://github.com/oktopeak/clio-mcp) — Similar connector for Clio practice management. npm: `@oktopeak/clio-mcp`
+- **MyCase MCP:** [github.com/oktopeak/mycase-mcp](https://github.com/oktopeak/mycase-mcp) — Similar connector for MyCase legal practice management. npm: `@oktopeak/mycase-mcp`
+- **IntakeQ / PracticeQ MCP:** [github.com/oktopeak/IntakeQ](https://github.com/oktopeak/IntakeQ) — HIPAA-aware connector for IntakeQ/PracticeQ (healthcare). Audit logging on every PHI read/write. npm: `@oktopeak/intakeq-mcp`
