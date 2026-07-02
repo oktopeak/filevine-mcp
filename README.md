@@ -1,5 +1,8 @@
 # Filevine MCP — Claude Integration
 
+> ### Built by [Oktopeak](https://oktopeak.com/?utm_source=github&utm_medium=readme&utm_campaign=filevine-mcp&utm_content=top-byline) — AI transformation & automation for law firms
+> **Digital transformation for legal and healthcare businesses.** We build AI integrations, workflow automation, and custom software your firm owns outright — including this connector. → [Book a 30-min call](https://calendly.com/office-oktopeak/30min?utm_source=github&utm_medium=readme&utm_campaign=filevine-mcp&utm_content=top-byline-call)
+
 An open-source MCP (Model Context Protocol) server connecting Claude to Filevine practice management platform. Access cases, contacts, documents, notes, tasks, and custom PI data from Claude with automatic rate limiting and audit logging.
 
 **Supported Endpoints:** 15 tools covering the Filevine v2 REST API.
@@ -318,3 +321,16 @@ MIT — Oktopeak
 - **Clio MCP:** [github.com/oktopeak/clio-mcp](https://github.com/oktopeak/clio-mcp) — Similar connector for Clio practice management. npm: `@oktopeak/clio-mcp`
 - **MyCase MCP:** [github.com/oktopeak/mycase-mcp](https://github.com/oktopeak/mycase-mcp) — Similar connector for MyCase legal practice management. npm: `@oktopeak/mycase-mcp`
 - **IntakeQ / PracticeQ MCP:** [github.com/oktopeak/IntakeQ](https://github.com/oktopeak/IntakeQ) — HIPAA-aware connector for IntakeQ/PracticeQ (healthcare). Audit logging on every PHI read/write. npm: `@oktopeak/intakeq-mcp`
+
+---
+
+## Who we are
+
+**[Oktopeak](https://oktopeak.com/?utm_source=github&utm_medium=readme&utm_campaign=filevine-mcp&utm_content=who-we-are) — digital transformation for law firms and healthcare.**
+
+We're a 7-person in-house product team building AI solutions for regulated industries: AI integrations, workflow automation, and custom software our clients own outright. We maintain four open-source MCP connectors — [Clio](https://github.com/oktopeak/clio-mcp), [MyCase](https://github.com/oktopeak/mycase-mcp), Filevine, and [IntakeQ](https://github.com/oktopeak/IntakeQ) — and deploy them inside real practices with scoped credentials, audit logs, and workflows built around how your team actually works.
+
+- 🌐 [oktopeak.com](https://oktopeak.com/?utm_source=github&utm_medium=readme&utm_campaign=filevine-mcp&utm_content=who-we-are)
+- 📅 [Book a 30-min call](https://calendly.com/office-oktopeak/30min?utm_source=github&utm_medium=readme&utm_campaign=filevine-mcp&utm_content=who-we-are-call)
+- ✉️ office@oktopeak.com — security reports welcome
+- 💼 [LinkedIn](https://www.linkedin.com/company/oktopeak-tech)
