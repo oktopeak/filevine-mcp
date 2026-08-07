@@ -332,6 +332,7 @@ This connector is free, MIT licensed, and maintained by [Oktopeak](https://oktop
 - **Tell another firm** running Filevine.
 - **[Leave a review](https://clutch.co/profile/oktopeak)** if we helped you directly.
 - Need it deployed, extended, or maintained for your firm? **[Commercial support](https://oktopeak.com/services/filevine-integration/)** — that is what funds the free work.
+- **Firm-wide deployment:** rolling Claude + this connector out to a whole firm (Claude Cowork, multi-user, security review)? See [Firm Deployment](https://oktopeak.com/services/firm-deployment/?utm_source=github&utm_medium=readme&utm_campaign=filevine-mcp&utm_content=firm-deployment).
 
 ## Who we are
 
