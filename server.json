@@ -2,6 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.oktopeak/filevine-mcp",
   "description": "Open-source MCP server connecting Claude to Filevine practice management. Built by Oktopeak.",
+  "websiteUrl": "https://oktopeak.com/filevine-mcp/",
   "version": "1.0.1",
   "repository": {
     "url": "https://github.com/oktopeak/filevine-mcp",

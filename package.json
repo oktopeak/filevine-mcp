@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "mcpName": "io.github.oktopeak/filevine-mcp",
   "description": "Open-source MCP server connecting Claude to Filevine practice management. Built by Oktopeak.",
+  "homepage": "https://oktopeak.com/filevine-mcp/?utm_source=npm&utm_medium=package&utm_campaign=filevine-mcp&utm_content=homepage",
   "type": "module",
   "main": "build/index.js",
   "bin": {
