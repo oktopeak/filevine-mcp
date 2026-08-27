@@ -7,6 +7,17 @@ An open-source MCP (Model Context Protocol) server connecting Claude to Filevine
 
 **Supported Endpoints:** 15 tools covering the Filevine v2 REST API.
 
+> [!TIP]
+> **Not a developer? You don't need to be.**
+>
+> The README below assumes someone comfortable editing a JSON config file. If that's not you or your team, we deploy this for law firms: scoped credentials, audit log wired in, one custom workflow, training.
+>
+> → **[See Guided MCP Setup](https://oktopeak.com/services/mcp-guided-setup/?utm_source=github&utm_medium=readme&utm_campaign=filevine-mcp&utm_content=top-tip-svc)**, or [book a 30-min call](https://calendly.com/office-oktopeak/30min?utm_source=github&utm_medium=readme&utm_campaign=filevine-mcp&utm_content=top-tip-call)
+
+**Jump to:** [Setup](#setup) · [Available tools](#tools-15-total) · [Compliance & security](#compliance--security) · [Need it deployed for you?](#need-more-than-the-connector) · [Other connectors](#other-connectors-by-oktopeak)
+
+---
+
 ## Setup
 
 ### 1. Prerequisites
@@ -316,11 +327,35 @@ MIT — Oktopeak
 
 ---
 
-## Related
+## Need more than the connector?
 
-- **Clio MCP:** [github.com/oktopeak/clio-mcp](https://github.com/oktopeak/clio-mcp) — Similar connector for Clio practice management. npm: `@oktopeak/clio-mcp`
-- **MyCase MCP:** [github.com/oktopeak/mycase-mcp](https://github.com/oktopeak/mycase-mcp) — Similar connector for MyCase legal practice management. npm: `@oktopeak/mycase-mcp`
-- **IntakeQ / PracticeQ MCP:** [github.com/oktopeak/IntakeQ](https://github.com/oktopeak/IntakeQ) — HIPAA-aware connector for IntakeQ/PracticeQ (healthcare). Audit logging on every PHI read/write. npm: `@oktopeak/intakeq-mcp`
+The open-source connector reads your Filevine data and lets Claude work with it. That handles about 20% of what most firms eventually want.
+
+We help two ways, depending on your scope:
+
+→ **Guided MCP Setup**: We deploy the connector in your firm with scoped credentials, audit log wired into your stack, a custom workflow designed with your team, and training. Scope and pricing tailored to your firm.
+  → [oktopeak.com/services/mcp-guided-setup/](https://oktopeak.com/services/mcp-guided-setup/?utm_source=github&utm_medium=readme&utm_campaign=filevine-mcp&utm_content=footer-svc-guided)
+
+→ **Filevine Integration**: For custom reporting, project schema work, document and intake automation, and the production software layer around Filevine.
+  → [oktopeak.com/services/filevine-integration/](https://oktopeak.com/services/filevine-integration/?utm_source=github&utm_medium=readme&utm_campaign=filevine-mcp&utm_content=footer-svc-filevine)
+
+Want a polished overview of this connector with FAQ?
+→ [oktopeak.com/filevine-mcp/](https://oktopeak.com/filevine-mcp/?utm_source=github&utm_medium=readme&utm_campaign=filevine-mcp&utm_content=footer-hub)
+
+Want to talk first? → [Book a 30-min scoping call](https://calendly.com/office-oktopeak/30min?utm_source=github&utm_medium=readme&utm_campaign=filevine-mcp&utm_content=footer-call)
+
+---
+
+## Other connectors by Oktopeak
+
+We ship the same kind of connector for other practice management platforms. Each has its own overview page on oktopeak.com:
+
+- **[Clio MCP](https://oktopeak.com/clio-mcp/?utm_source=github&utm_medium=readme&utm_campaign=filevine-mcp&utm_content=xlink-clio)**: Clio practice management. Source: [github.com/oktopeak/clio-mcp](https://github.com/oktopeak/clio-mcp). npm: `@oktopeak/clio-mcp`
+- **[MyCase MCP](https://oktopeak.com/mycase-mcp/?utm_source=github&utm_medium=readme&utm_campaign=filevine-mcp&utm_content=xlink-mycase)**: MyCase legal practice management. Source: [github.com/oktopeak/mycase-mcp](https://github.com/oktopeak/mycase-mcp). npm: `@oktopeak/mycase-mcp`
+- **[Lawmatics MCP](https://oktopeak.com/lawmatics-mcp/?utm_source=github&utm_medium=readme&utm_campaign=filevine-mcp&utm_content=xlink-lawmatics)**: Lawmatics legal CRM and intake. Source: [github.com/oktopeak/lawmatics-mcp](https://github.com/oktopeak/lawmatics-mcp). npm: `@oktopeak/lawmatics-mcp`
+- **[IntakeQ / PracticeQ MCP](https://github.com/oktopeak/IntakeQ)**: HIPAA-aware connector for IntakeQ/PracticeQ (healthcare). Audit logging on every PHI read/write. npm: `@oktopeak/intakeq-mcp`
+
+Same architecture, same audit logging, same encryption at rest. All MIT licensed.
 
 ---
 
@@ -331,14 +366,14 @@ This connector is free, MIT licensed, and maintained by [Oktopeak](https://oktop
 - **Star this repo.** It is genuinely how other firms find it.
 - **Tell another firm** running Filevine.
 - **[Leave a review](https://clutch.co/profile/oktopeak)** if we helped you directly.
-- Need it deployed, extended, or maintained for your firm? **[Commercial support](https://oktopeak.com/services/filevine-integration/)** — that is what funds the free work.
+- Need it deployed, extended, or maintained for your firm? **[Commercial support](https://oktopeak.com/filevine-mcp/)** — that is what funds the free work.
 - **Firm-wide deployment:** rolling Claude + this connector out to a whole firm (Claude Cowork, multi-user, security review)? See [Firm Deployment](https://oktopeak.com/services/firm-deployment/?utm_source=github&utm_medium=readme&utm_campaign=filevine-mcp&utm_content=firm-deployment).
 
 ## Who we are
 
 **[Oktopeak](https://oktopeak.com/?utm_source=github&utm_medium=readme&utm_campaign=filevine-mcp&utm_content=who-we-are) — digital transformation for law firms and healthcare.**
 
-We're a 7-person in-house product team building AI solutions for regulated industries: AI integrations, workflow automation, and custom software our clients own outright. We maintain four open-source MCP connectors — [Clio](https://github.com/oktopeak/clio-mcp), [MyCase](https://github.com/oktopeak/mycase-mcp), Filevine, and [IntakeQ](https://github.com/oktopeak/IntakeQ) — and deploy them inside real practices with scoped credentials, audit logs, and workflows built around how your team actually works.
+We're a 7-person in-house product team building AI solutions for regulated industries: AI integrations, workflow automation, and custom software our clients own outright. We maintain five open-source MCP connectors — [Clio](https://github.com/oktopeak/clio-mcp), [MyCase](https://github.com/oktopeak/mycase-mcp), Filevine, [Lawmatics](https://github.com/oktopeak/lawmatics-mcp), and [IntakeQ](https://github.com/oktopeak/IntakeQ) — and deploy them inside real practices with scoped credentials, audit logs, and workflows built around how your team actually works.
 
 - 🌐 [oktopeak.com](https://oktopeak.com/?utm_source=github&utm_medium=readme&utm_campaign=filevine-mcp&utm_content=who-we-are)
 - 📅 [Book a 30-min call](https://calendly.com/office-oktopeak/30min?utm_source=github&utm_medium=readme&utm_campaign=filevine-mcp&utm_content=who-we-are-call)
